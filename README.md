@@ -13,13 +13,9 @@ In this lesson, we'll introduce, define, and work with objects.
 
 ## Introduction 
 
-When we run across a word that we don't know, we often consult a dictionary. A dictionary is, at its core, a list of words; below each word is a definition or set of definitions. If we know the word that we're looking for, we can just look it up in the dictionary and get all its information.
+Storing, organizing, and manipulating data is at the core of what makes a computer program do cool stuff. Programmers use different data structures to accomplish different goals. A data structure is a particular way of organizing data in a computer so that it can be used efficiently.
 
-To offer another example, imagine a planner. The planner has a list of dates, and each date has a list of times; at each time, there's an event (or not). The planner gives us a way of _associating_ what's happening with the time when it happens. If we look up a given time, we will see what (if anything) is happening then.
-
-In programming, structures like dictionaries are called "associative data structures": they contain pairs of keys (words in our dictionary analogy) and values (definitions in our dictionary analogy).
-
-In JavaScript, the barebones associative data structure is called an _object_. That means that in an object, you can look something up by its _key_ and get back its _value_ — just like in a dictionary. In fact, you might hear some people refer to objects as "dictionaries." We're going to call them "objects" because they're instances of JavaScript's capital-O `Object`.
+In JavaScript, the most common data structure is called an _object_. Objects are similar to safety deposit boxes. To access the contents of a safety deposit box, you need to get the correct key for that box. With an _object_ you can access a _value_ by using its _key_. 
 
 ## Creating Objects
 
